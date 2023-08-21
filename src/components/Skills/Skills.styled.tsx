@@ -19,7 +19,7 @@ export const Skills = (props: any) => {
 }
 
 export const SkillsStyle = styled.section`
-  background-color: rgba(165, 187, 248, 1);
+  background-color: rgba(165, 187, 248, 0.7);
 `
 
 export const SkillsWrapper = styled.div`
