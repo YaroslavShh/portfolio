@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
-export const Footer = (props: any) => {
+
+export const Footer = () => {
     return (
         <FooterStyle>
             <div>
