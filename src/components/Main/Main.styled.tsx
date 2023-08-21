@@ -15,6 +15,6 @@ export const Main = (props: any) => {
 
 export const MainStyled = styled.main`
   background: linear-gradient(to right, ${MyTheme.colors.colorBack.primary} 40%, ${MyTheme.colors.colorText.third} 30%, ${MyTheme.colors.colorText.third} 30%);
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 `

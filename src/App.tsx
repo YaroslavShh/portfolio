@@ -1,11 +1,16 @@
 import React from 'react';
 import {Main} from "./components/Main/Main.styled";
+import {Stack} from "./components/Stack/Stack.styled";
+import {Projects} from "./components/Projects/Projects.styled";
 
 function App() {
   return (
-        <Main>
+      <div>
+          <Main/>
+          <Stack/>
+          <Projects/>
+      </div>
 
-        </Main>
   );
 }
 
