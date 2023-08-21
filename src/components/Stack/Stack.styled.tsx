@@ -1,12 +1,12 @@
 import styled from "styled-components";
-import {Heading} from "../Heading/Heading.styled";
+import {Heading2} from "../Heading/Heading2.styled";
 import {Icon} from "./Icon/Icon.styled";
 
 
 export const Stack = (props: any) => {
     return (
         <StackStyle>
-            <Heading text={"My Tech Stack"}/>
+            <Heading2 text={"My Tech Stack"}/>
             <StackWrapper>
                 <Icon iconId ="html"/>
                 <Icon iconId ="css"/>

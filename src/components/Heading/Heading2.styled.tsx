@@ -6,7 +6,7 @@ type HeadingPropsType = {
     text: string
 }
 
-export const Heading = (props: HeadingPropsType) => {
+export const Heading2 = (props: HeadingPropsType) => {
     return (
         <HeadingStyle text={props.text}>{props.text}</HeadingStyle>
     )
