@@ -39,9 +39,16 @@ export const Menu = styled.nav`
   display: flex;
   gap: 60px;
   align-items: center;
+
   li {
     list-style-type: none;
-    a{
+    border-bottom: 2px solid transparent;
+    transition: 0.5s ease;
+    &:hover {
+      border-bottom: 2px solid rgba(33, 87, 242, 1);
+    }
+
+    a {
       color: ${MyTheme.colors.colorText.secondary};
       font-size: ${MyTheme.fontSize.fourth};
     }

@@ -11,11 +11,9 @@ export const Stack = (props: any) => {
                 <Icon iconId ="html"/>
                 <Icon iconId ="css"/>
                 <Icon iconId ="js"/>
-                <Icon iconId ="react"/>
-                <Icon iconId ="sass"/>
+                <Icon iconId ="node"/>
                 <Icon iconId ="git"/>
                 <Icon iconId ="github"/>
-                <Icon iconId ="vscode"/>
             </StackWrapper>
         </StackStyle>
     )
@@ -32,7 +30,7 @@ export const StackWrapper = styled.div`
   display: grid;
   margin-top: 100px;
   grid-auto-columns: 1fr;
-  grid-template-columns: repeat(8, 120px);
+  grid-template-columns: repeat(6, 120px);
   gap: 40px;
   justify-content: center;
 `

@@ -12,8 +12,10 @@ export const Card = (props: CardPropsType) => {
         <CardStyle img={props.img} size={props.size}>
             <CardText>
                 <Heading3 text={"Story motion for sale English cources"}/>
+                <BtnWrapper>
                     <Button text={"Edit for you"} backColor/>
                     <Button text={"see preview"}/>
+                </BtnWrapper>
             </CardText>
         </CardStyle>
     )
@@ -38,7 +40,8 @@ export const CardText = styled.div`
   text-align: left;
   border-radius: 0 0 26px 26px;
   background-color: rgba(255, 255, 255, 1);
-  button + button {
-    margin-left: 10px;
-  }
+`
+
+export const BtnWrapper = styled.div`
+  display: flex;
 `

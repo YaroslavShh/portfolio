@@ -21,6 +21,10 @@ export const BtnStyle = styled.button<ButtonPropsType>`
   font-size: 16px;
   color: ${MyTheme.colors.colorBack.primary};
   cursor: pointer;
+  transition: 0.5s ease;
+  &:hover {
+    color: rgba(57, 57, 57, 1);
+  }
   ${props => props.bg && css<ButtonPropsType>`
     background-color: ${props => props.backColor};
     color: #fff;
@@ -36,6 +40,10 @@ export const BtnStyle = styled.button<ButtonPropsType>`
       width: 30px;
       height: 30px;
       background: no-repeat center/80% url(${Arrow});
+    };
+    &:hover {
+      background: rgba(57, 57, 57, 1);
+      color: #fff;
     }
   `}
 `

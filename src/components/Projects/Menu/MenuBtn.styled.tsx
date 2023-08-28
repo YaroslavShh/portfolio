@@ -7,15 +7,20 @@ type MenuBtnPropsType = {
 }
 export const MenuBtn = (props: MenuBtnPropsType) => {
     return (
-        <MenuBtnStyle>{props.text}</MenuBtnStyle>
+        <MenuBtnStyle href={"#"}>{props.text}</MenuBtnStyle>
     )
 }
 
-export const MenuBtnStyle = styled.button`
+export const MenuBtnStyle = styled.a`
   padding: 8px 55px;
   border: 2px solid rgba(166, 188, 250, 1);
   border-radius: 68px;
   color: rgba(31, 31, 31, 1);
-  background-color: transparent;
+  background-color: #fff;
   font-size: ${MyTheme.fontSize.fourth};
+  transition: 0.5s ease;
+  &:hover {
+    background-color: rgba(166, 188, 250, 1);
+    color: #fff;
+  }
 `

@@ -6,7 +6,7 @@ import Img2 from "./Card/images/2.png";
 import Img3 from "./Card/images/3.png";
 import Img4 from "./Card/images/4.png";
 import {MenuBtn} from "./Menu/MenuBtn.styled";
-
+import SvgTochka from "./Tochka.svg";
 
 export const Projects = (props: any) => {
     return (
@@ -30,6 +30,200 @@ export const Projects = (props: any) => {
                 <Card img={Img3}/>
                 <Card img={Img4}/>
             </CardWrapper>
+            <GridTochka>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+                <Tochka/>
+            </GridTochka>
         </ProjStyle>
     )
 }
@@ -52,9 +246,26 @@ export const MenuWrapper = styled.div`
 export const CardWrapper = styled.div`
   display: grid;
   grid-auto-columns: 1fr;
-  grid-template-columns: repeat(4, 270px);
+  grid-template-columns: repeat(auto-fit, 270px);
   gap: 40px;
   justify-content: center;
   grid-template-rows: 1fr 1fr;
   margin-top: 60px; 
+`
+
+export const GridTochka = styled.div`
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  z-index: -1;
+  display: grid;
+  width: 410px;
+  grid-template-columns: repeat(auto-fit, 8px);
+  gap: 26px;
+`
+
+export const Tochka = styled.div`
+  background: no-repeat center/80% url(${SvgTochka});
+  width: 8px;
+  height: 8px;
 `
